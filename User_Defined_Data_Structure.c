@@ -9,16 +9,20 @@ typedef struct
 }
 new;
 
+typedef char *string;
 
 int main(void)
 {
     new tup[2];
-
+    string p = "Pratham";
     tup[0].index = 0;
     tup[0].name = 'P';
 
     tup[1].index = 1;
     tup[1].name = 'T';
 
-    printf("%c %c", tup[0].name,tup[1].name);  
+    printf("\n%c %c\n", tup[0].name,tup[1].name);  
+    printf("%s\n",p);
+
+    return 0;
 }
