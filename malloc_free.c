@@ -11,7 +11,7 @@ int main()
     // free(t); // this will free the memory allocated to variable t...
     // This function will free the allocated memory.
 
-    // can use valgrind to check if there are any memory errors.
+    // can use 'valgrind' to check if there are any memory errors.
 
     // Garbage values: if you just allocate memory without changing its value, then 
     // the memory itself already have some values in it called garbage values which were 
