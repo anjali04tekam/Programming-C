@@ -16,4 +16,22 @@ int main()
     // Garbage values: if you just allocate memory without changing its value, then 
     // the memory itself already have some values in it called garbage values which were 
     // the values used by some other program earlier...
+
+    // realloc function
+    // reallocate the memory and copy paste previous data into new chunck of memory
+    // takes two arguments
+    // int *t2 = realloc(t, 40 * sizeof(int)); can grow or compress array...
+
+    int *list = malloc(3 * sizeof(int));
+    if ( list == NULL ) // Just to check if computer runs out of memory...
+    {
+        return 1;
+    }
+
+    list[0] = 1;
+    list[1] = 2;
+    list[2] = 3;
+
+    // ...
+
 }
