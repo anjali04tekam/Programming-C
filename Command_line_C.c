@@ -1,7 +1,7 @@
 # include <stdio.h>
 
 
-int main(int argc, char argv[])
+int main(int argc, char* argv[])
 {
     if (argc==1)
     {
@@ -9,6 +9,6 @@ int main(int argc, char argv[])
     }
     else
     {
-        printf("hello, %c\n", argv[1]);
+        printf("hello, %s\n", argv[1]);
     }
 }
