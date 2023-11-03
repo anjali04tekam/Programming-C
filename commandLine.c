@@ -6,5 +6,7 @@ int main(int argc, char* argv[]){
 		return 0;
 	}
 	printf("Hello, %s\n", argv[1]);
+
+	printf("Commandline program succesfully executed!!!");
 	return 0;
 }
